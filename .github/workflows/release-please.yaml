@@ -23,8 +23,9 @@ jobs:
         id: release
         with:
           release-type: "go"
+          separate-pull-request: true
           command: manifest
-          token: ${{secrets.GITHUB_TOKEN}}
+          token: ${{secrets.TOKEN}}
           default-branch: main
 
       - name: Dump Release Please Output
