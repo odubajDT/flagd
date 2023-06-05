@@ -1,5 +1,48 @@
 # Changelog
 
+## [0.5.4](https://github.com/odubajDT/flagd/compare/flagd-v0.5.3...flagd/v0.5.4) (2023-06-05)
+
+
+### 📚 Documentation
+
+* improve markdown quality ([#498](https://github.com/odubajDT/flagd/issues/498)) ([c77fa37](https://github.com/odubajDT/flagd/commit/c77fa37979899f95ba51f69eeee21d96b6ab239c))
+
+
+### 🧹 Chore
+
+* refactor configuration handling for startup ([#551](https://github.com/odubajDT/flagd/issues/551)) ([8dfbde5](https://github.com/odubajDT/flagd/commit/8dfbde5bbffd16fb66797a750d15f0226edf54a7))
+* release main ([#488](https://github.com/odubajDT/flagd/issues/488)) ([873c7b3](https://github.com/odubajDT/flagd/commit/873c7b37dbbfefa8f6448fb1dec06b2ce40fb02d))
+* release main ([#512](https://github.com/odubajDT/flagd/issues/512)) ([85a0f0d](https://github.com/odubajDT/flagd/commit/85a0f0d4d97d9388dcd291b2a96e8bbbdd53c2a7))
+* release main ([#547](https://github.com/odubajDT/flagd/issues/547)) ([529e3e9](https://github.com/odubajDT/flagd/commit/529e3e913f2c02adfd4f1bf69455a7f6ba1f8368))
+* release main ([#582](https://github.com/odubajDT/flagd/issues/582)) ([f5ecc54](https://github.com/odubajDT/flagd/commit/f5ecc5413753edab7c9f42e2a917ce10f81d63d2))
+* release main ([#607](https://github.com/odubajDT/flagd/issues/607)) ([0fbd30f](https://github.com/odubajDT/flagd/commit/0fbd30f4b3ba25d3e8adf457d2708cd0990b68d8))
+* release main ([#615](https://github.com/odubajDT/flagd/issues/615)) ([ef5af58](https://github.com/odubajDT/flagd/commit/ef5af58d1ee96bf866146e41b337f703fae62814))
+* update otel dependencies ([#649](https://github.com/odubajDT/flagd/issues/649)) ([2114e41](https://github.com/odubajDT/flagd/commit/2114e41c38951247866c0b408e5f933282902e70))
+
+
+### 🐛 Bug Fixes
+
+* benchmark pipeline ([#538](https://github.com/odubajDT/flagd/issues/538)) ([62cc0fc](https://github.com/odubajDT/flagd/commit/62cc0fcfd6a63a6059352704117dbb78160eb689))
+* **deps:** update module github.com/open-feature/flagd/core to v0.4.5 ([#552](https://github.com/odubajDT/flagd/issues/552)) ([41799f6](https://github.com/odubajDT/flagd/commit/41799f624c261a84599cdd406cf28f4b33e49851))
+* **deps:** update module github.com/open-feature/flagd/core to v0.5.1 ([#579](https://github.com/odubajDT/flagd/issues/579)) ([58eed62](https://github.com/odubajDT/flagd/commit/58eed62f5021e5c7a01a171067b725bf3ff83965))
+* **deps:** update module github.com/open-feature/flagd/core to v0.5.2 ([#613](https://github.com/odubajDT/flagd/issues/613)) ([218f435](https://github.com/odubajDT/flagd/commit/218f435f0212fa24483b2af25e184e154e575eb1))
+* **deps:** update module github.com/open-feature/flagd/core to v0.5.3 ([#634](https://github.com/odubajDT/flagd/issues/634)) ([1bc7e99](https://github.com/odubajDT/flagd/commit/1bc7e99473bc0c7bcacfb40030562e556d3895d6))
+* **deps:** update module github.com/open-feature/go-sdk-contrib/providers/flagd to v0.1.12 ([#635](https://github.com/odubajDT/flagd/issues/635)) ([fe88061](https://github.com/odubajDT/flagd/commit/fe88061ed6e0f1b6119af4c96a02495c4ff8072b))
+* **deps:** update module github.com/open-feature/go-sdk-contrib/tests/flagd to v1.2.2 ([#651](https://github.com/odubajDT/flagd/issues/651)) ([9776973](https://github.com/odubajDT/flagd/commit/9776973109a1bb45ab611ede6b2c4d2c01508455))
+* **deps:** update module github.com/spf13/cobra to v1.7.0 ([#587](https://github.com/odubajDT/flagd/issues/587)) ([12b3477](https://github.com/odubajDT/flagd/commit/12b34773a68f6ae7e7e605aebc9f7075eb819994))
+* fall back to default port if env var cannot be parsed ([#591](https://github.com/odubajDT/flagd/issues/591)) ([1fda104](https://github.com/odubajDT/flagd/commit/1fda10473dba36149e13fa0cb8bb686d6861e568))
+
+
+### ✨ New Features
+
+* flagd OTEL collector ([#586](https://github.com/odubajDT/flagd/issues/586)) ([494bec3](https://github.com/odubajDT/flagd/commit/494bec33dcc1ddf0fa5cd0866f06265618408f5e))
+* grpc connection options to flagd configuration options ([#532](https://github.com/odubajDT/flagd/issues/532)) ([aa74951](https://github.com/odubajDT/flagd/commit/aa74951f43b662ff2df53e68d347fc10e6d23bb8))
+* Introduce connect traces ([#624](https://github.com/odubajDT/flagd/issues/624)) ([28bac6a](https://github.com/odubajDT/flagd/commit/28bac6a54aed79cb8d84a147ffea296c36f5bd51))
+* Introduce flagd kube proxy ([#495](https://github.com/odubajDT/flagd/issues/495)) ([440864c](https://github.com/odubajDT/flagd/commit/440864ce87174618321c9d5146221490d8f07b24))
+* otel traces for flag evaluation ([#598](https://github.com/odubajDT/flagd/issues/598)) ([1757035](https://github.com/odubajDT/flagd/commit/175703548f88469f25d749e320ee48030c9f9074))
+* Restructure for monorepo setup ([#486](https://github.com/odubajDT/flagd/issues/486)) ([ed2993c](https://github.com/odubajDT/flagd/commit/ed2993cd67b8a46db3beb6bb8a360e1aa20349da))
+* telemetry improvements ([#653](https://github.com/odubajDT/flagd/issues/653)) ([ea02cba](https://github.com/odubajDT/flagd/commit/ea02cba24bde982d55956fe54de1e8f27226bfc6))
+
 ## [0.5.3](https://github.com/open-feature/flagd/compare/flagd/v0.5.2...flagd/v0.5.3) (2023-05-04)
 
 
